@@ -4,11 +4,92 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PC App Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main id="root">
-      <header id="header"></header>
+      <!-- <img
+        src="public/icon_download_firefox.svg"
+        class="download-arrow_firefox"
+        alt=""
+      />
+      <img
+        src="public/icon_download_chrome.svg"
+        class="download-arrow_chrome"
+        alt=""
+      /> -->
+      <header class="header">
+        <div class="header__text container">
+          <span class="header__text__product">top antivirus</span>
+          <div class="header__text__divider"></div>
+          <h1 class="header__text__company">
+            PC APP STORE<span class="header__text__company__trademark">™</span>
+          </h1>
+        </div>
+      </header>
+      <section class="content">
+        <div class="container content_wrapper">
+          <h2 class="content__title">thank you for choosing our product!</h2>
+          <div id="content_cards">
+            <span>Loading...</span>
+
+            <!-- <div class="content__card">
+              <div class="content__card_bg"></div>
+              <div class="content__card_body">
+                <div class="content__card__price">
+                  <span class="content__card__price__text"
+                    >$1.02<span class="content__card__price__text_sm"
+                      >/per year</span
+                    ></span
+                  >
+                  <div class="content__card__price__is-best">Best value</div>
+                  <img
+                    src="public/50OFF.png"
+                    class="content__card__price__discount"
+                    alt=""
+                  />
+                </div>
+                <div class="content__card__text">
+                  <span class="content__card__text__title"
+                    >McAfee® Total Protection</span
+                  >
+                  <span class="content__card__text__time"
+                    >1Year / 1-Device</span
+                  >
+                </div>
+                <button class="content__card__button">
+                  <span class="content__card__button__text">Download</span>
+                  <img
+                    src="public/button_icon.svg"
+                    class="content__card__button__icon"
+                    alt=""
+                  />
+                </button>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__text container">
+          <span class="footer__text__product"> top antivirus</span>
+          <span class="footer__text__copyright">Copyright © 2021</span>
+        </div>
+      </footer>
     </main>
     <script src="script.js"></script>
   </body>
