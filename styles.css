@@ -1,0 +1,17 @@
+:root {
+  --header-height: 49px;
+  --color-yellow: #ffb800;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-grey: #f3f5f6;
+}
+
+body {
+  margin: 0;
+}
+
+#header {
+  width: 100vw;
+  height: var(--header-height);
+  background-color: var(--color-black);
+}
