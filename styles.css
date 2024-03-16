@@ -11,7 +11,7 @@
 
 @keyframes smooth-appear_firefox {
   from {
-    top: 100px;
+    top: -100px;
     opacity: 0;
   }
   to {
